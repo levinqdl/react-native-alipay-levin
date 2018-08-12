@@ -1,6 +1,6 @@
 {
-  "name": "react-native-yunpeng-alipay",
-  "version": "2.0.0",
+  "name": "react-native-alipay-levin",
+  "version": "0.1.0",
   "description": "alipay module for react native from yunpeng",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,8 @@
   },
   "keywords": [
     "react-native",
-    "alipay",
-    "yunpeng"
+    "alipay"
   ],
-  "author": "m2mbob",
+  "author": "levinqdl",
   "license": "MIT"
 }

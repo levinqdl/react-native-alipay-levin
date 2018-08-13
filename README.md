@@ -1,11 +1,11 @@
-# react-native-yunpeng-alipay
+# react-native-alipay-levinqdl
 
 React Native Module for alipay.com
 
 ## install
 
 ```
-npm install react-native-yunpeng-alipay --save
+npm install react-native-alipay-levin --save
 ```
 
 ## Android
@@ -13,7 +13,7 @@ npm install react-native-yunpeng-alipay --save
 ### With rnpm
 
 ```
-rnpm link react-native-yunpeng-alipay
+rnpm link react-native-alipay-levin
 ```
 
 ### Manually
@@ -21,15 +21,15 @@ rnpm link react-native-yunpeng-alipay
 * android/settings.gradle
 
 ```
-include ':react-native-yunpeng-alipay'
-project(':react-native-yunpeng-alipay').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-yunpeng-alipay/android')
+include ':react-native-alipay-levin'
+project(':react-native-alipay-levin').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-alipay-levin/android')
 ```
 
 * android/app/build.gradle
 
 ```
 dependencies {
-    compile project(':react-native-yunpeng-alipay')
+    compile project(':react-native-alipay-levin')
 }
 ```
 
@@ -38,7 +38,7 @@ dependencies {
 ```java
 ...
 
-import com.yunpeng.alipay.AlipayPackage; // <--- IMPORT
+import com.levinqdl.alipay.AlipayPackage; // <--- IMPORT
 
 public class MainActivity extends ReactActivity {
 
@@ -59,12 +59,12 @@ public class MainActivity extends ReactActivity {
 ### With rnpm
 
 ```
-rnpm link react-native-yunpeng-alipay
+rnpm link react-native-levin-alipay
 ```
 
 ### Manually
 
-> Link `AlipayModule` library from your `node_modules/react-native-yunpeng-alipay/ios` folder like its [described here](http://facebook.github.io/react-native/docs/linking-libraries-ios.html). Don't forget to add it to "Build Phases" of project.
+> Link `AlipayModule` library from your `node_modules/react-native-alipay-levin/ios` folder like its [described here](http://facebook.github.io/react-native/docs/linking-libraries-ios.html). Don't forget to add it to "Build Phases" of project.
 
 ### Config
 
@@ -93,7 +93,7 @@ rnpm link react-native-yunpeng-alipay
 ### General Usage
 
 ```javascript
-import Alipay from 'react-native-yunpeng-alipay';
+import Alipay from 'react-native-alipay-levin';
 
 ```
 

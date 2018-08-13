@@ -1,7 +1,7 @@
 {
   "name": "react-native-alipay-levin",
   "version": "0.1.0",
-  "description": "alipay module for react native from yunpeng",
+  "description": "alipay module for react native from levinqdl",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
